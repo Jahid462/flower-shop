@@ -18,13 +18,18 @@ a{
     border: none;
     padding: 13px 25px;
     border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: #d50000;
 }
 
 
 /* Header Section */
 
 .header{
-    background-color: #c7b4b8;
+    background-color: #FCEEF1;
     width: 100%;
 }
 .navbar{
@@ -32,6 +37,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: #e5d0d4;
 }
 .logo h1{
     font-weight: 900;
@@ -69,9 +75,23 @@ a{
 /* Banner Section */
 
 .banner_container{
-
+    width: 1040px;
+    height: 562px;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
+.banner_desc h1{
+    font-size: 55px;
+}
+.banner_desc p{
+    margin: 30px 0;
+}
+.banner_img img{
+    max-width: 450px;
+}
 
 
 
