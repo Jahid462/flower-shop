@@ -191,7 +191,7 @@ p{
 
 .hot_deal_section{
     background-color: #FDF6F8;
-    margin-top: 100px;
+    margin: 100px 0;
 }
 .hot_deal_container{
     display: flex;
@@ -212,6 +212,33 @@ p{
 .hot_deal_content p{
     margin: 30px 0;
 }
+
+
+/* ------------------ Instagram Section---------------- */
+
+.instagram_section_content{
+    text-align: center;
+}
+.instagram_section_content h1{
+    font-size: 40px;
+}
+.instagram_section_content p{
+    margin: 40px 0;
+}
+.instagram_photos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.instagram_photos_single{
+    width: 300px;
+
+}
+.instagram_photos_single img{
+    width: 100%;
+}
+
 
 
 
