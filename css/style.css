@@ -240,6 +240,35 @@ p{
 }
 
 
+/* ----------------- Subscribe Section--------------- */
+
+.subscribe_section{
+    text-align: center;
+    background-image: url("../images/rectangle-9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 324px;
+    margin: 100px auto;
+}
+.subscribe_section h1{
+    font-size: 40px;
+    padding-top: 85px;
+}
+.subscribe_section p{
+    margin: 15px 0;
+}
+.subscribe_section form input[type="text"]{
+    border: none;
+    outline: none;
+    width: 45%;
+    padding: 18px 15px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+
+
+
 
 
 
