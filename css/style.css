@@ -46,12 +46,14 @@ p{
     align-items: center;
     padding: 20px 60px;
     background-color: #e5d0d4;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
 }
 .logo h1{
     font-weight: 900;
     cursor: pointer;
+    font-size: 32px;
 }
 .logo > h1 > span{
     color: #d50000;
@@ -267,8 +269,28 @@ p{
 }
 
 
+/* ------------------------ Footer Section-------------------------- */
 
 
-
-
-
+.footer_section{
+    background-color: #000;
+}
+.footer_content{
+    text-align: center;
+    padding: 90px 0;
+}
+.footer_content h1{
+    font-size: 44px;
+    color: #E55473;
+}
+.footer_content h1 span{
+    color: #fff;
+}
+.footer_content .about{
+    color: #d9d7d7;
+    margin: 30px 0;
+    font-size: 17px;
+}
+.footer_content .copyright{
+    color: #a3a3a3;
+}
