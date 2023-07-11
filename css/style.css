@@ -12,14 +12,18 @@ li{
 a{
     text-decoration: none;
 }
+p{
+    color: #525252;
+}
 .btn{
     color: #fff;
     background-color: #E55473;
     border: none;
-    padding: 13px 25px;
+    padding: 16px 30px;
     border-radius: 5px;
     cursor: pointer;
     font-weight: 700;
+    font-size: 16px;
 }
 .btn:hover{
     background-color: #d50000;
@@ -183,9 +187,31 @@ a{
 }
 
 
+/* --------------------- Hot Deal Section---------------------- */
 
-
-
+.hot_deal_section{
+    background-color: #FDF6F8;
+    margin-top: 100px;
+}
+.hot_deal_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 30px;
+}
+.hot_deal_content{
+    text-align: center;
+}
+.hot_deal_content h1{
+    font-size: 40px;
+}
+.hot_deal_content h1 span{
+    color: #E55473;
+}
+.hot_deal_content p{
+    margin: 30px 0;
+}
 
 
 
