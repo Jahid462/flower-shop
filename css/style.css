@@ -1,4 +1,4 @@
-/* Default Styles */
+/* ------------Default Styles------------------ */
 *{
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ a{
 }
 
 
-/* Header Section */
+/*---------------- Header Section-------------------- */
 
 .header{
     background-color: #FCEEF1;
@@ -78,7 +78,7 @@ a{
 }
 
 
-/* Banner Section */
+/* ------------------ Banner Section ------------------- */
 
 .banner_container{
     height: 562px;
@@ -99,7 +99,7 @@ a{
 }
 
 
-/* Featured Flower Section */
+/* ------------- Featured Flower Section ----------------- */
 
 .feature_container{
     background-color: #fff;
@@ -122,7 +122,7 @@ a{
     margin-top: 60px;
 }
 .common{
-    width: 360px;
+    width: 333px;
     height: 420px;
     display: flex;
     justify-content: center;
@@ -161,3 +161,32 @@ a{
 .flowers_caption h2 a:hover{
     color: #b00;
 }
+
+/* -------------------------------------- */
+
+.feature_services{
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 80px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.feature_services_single h1{
+    color: #525252;
+    margin-top: 20px;
+}
+.feature_services_single img{
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
